@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+
+tuner:
+  json: tuner.json
+  channel-configuration: channel-configuration.json
+
+spring:
+  mvc:
+    async:
+      request-timeout: 86400000 # ms (1 day)
+  jackson:
+    serialization:
+      indent_output: true

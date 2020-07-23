@@ -1,0 +1,74 @@
+{
+  "tuner": [
+    {
+      "displayName": "PT3-BS1",
+      "type": "BS",
+      "deviceName": "/dev/dvb/adapter0",
+      "index": 0,
+      "command": "recdvb --strip --b25 --dev 0 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PT3-GR1",
+      "type": "GR",
+      "deviceName": "/dev/dvb/adapter1",
+      "index": 0,
+      "command": "recdvb --strip --b25 --dev 1 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PT3-BS2",
+      "type": "BS",
+      "deviceName": "/dev/dvb/adapter2",
+      "index": 1,
+      "command": "recdvb --strip --b25 --dev 2 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PT3-GR2",
+      "type": "GR",
+      "deviceName": "/dev/dvb/adapter3",
+      "index": 1,
+      "command": "recdvb --strip --b25 --dev 3 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PX-W3U4-BS1",
+      "type": "BS",
+      "deviceName": "/dev/px4video0",
+      "index": 2,
+      "command": "recpt1 --strip --b25 --device /dev/px4video0 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PX-W3U4-BS2",
+      "type": "BS",
+      "deviceName": "/dev/px4video1",
+      "index": 3,
+      "command": "recpt1 --strip --b25 --device /dev/px4video1 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PX-W3U4-GR1",
+      "type": "GR",
+      "deviceName": "/dev/px4video2",
+      "index": 2,
+      "command": "recpt1 --strip --b25 --device /dev/px4video2 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PX-W3U4-GR2",
+      "type": "GR",
+      "deviceName": "/dev/px4video3",
+      "index": 3,
+      "command": "recpt1 --strip --b25 --device /dev/px4video3 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PX-S1UD V2.0",
+      "type": "GR",
+      "deviceName": "/dev/dvb/adapter4",
+      "index": 4,
+      "command": "recdvb --strip --b25 --dev 4 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PX-BCUD",
+      "type": "BS",
+      "deviceName": "/dev/dvb/adapter5",
+      "index": 4,
+      "command": "recdvb --strip --b25 --dev 5 <channel> <duration> <destination>"
+    }
+  ]
+}

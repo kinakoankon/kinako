@@ -1,0 +1,32 @@
+{
+  "tuner": [
+    {
+      "displayName": "PT3-BS1",
+      "type": "BS",
+      "deviceName": "/dev/dvb/adapter0",
+      "index": 0,
+      "command": "recdvb --strip --b25 --dev 0 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PT3-GR1",
+      "type": "GR",
+      "deviceName": "/dev/dvb/adapter1",
+      "index": 0,
+      "command": "recdvb --strip --b25 --dev 1 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PT3-BS2",
+      "type": "BS",
+      "deviceName": "/dev/dvb/adapter2",
+      "index": 1,
+      "command": "recdvb --strip --b25 --dev 2 <channel> <duration> <destination>"
+    },
+    {
+      "displayName": "PT3-GR2",
+      "type": "GR",
+      "deviceName": "/dev/dvb/adapter3",
+      "index": 1,
+      "command": "recdvb --strip --b25 --dev 3 <channel> <duration> <destination>"
+    }
+  ]
+}
